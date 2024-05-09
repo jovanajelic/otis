@@ -1,0 +1,77 @@
+.hero {
+  background-image: url('../../public/otis_layout.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+}
+.hero .container {
+  position: absolute;
+  padding-left: 50px;
+  padding-top: 150px;
+}
+
+.aboutPanel {
+  background-color: #e20613;
+  margin: 20px;
+  padding: 20px 20px;
+  width: 700px;
+  height: 300px;
+  position: relative;
+}
+.hero h4 {
+  color: #fff;
+  font-size: 60px;
+  position: absolute;
+  top: -50px;
+  font-weight: 800;
+}
+.hero p {
+  color: #fff;
+  opacity: 0.8;
+  position: absolute;
+  top: 150px;
+}
+.hero button {
+  background-color: #fff;
+  color: #e20613;
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  top: 250px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.button i {
+  margin-left: 10px;
+}
+
+.button span {
+  margin-left: 35px;
+}
+
+@media screen and (max-width: 1030px) {
+  .hero .container {
+    margin-top: 200px;
+    width: 100%;
+    padding: 0;
+  }
+  .aboutPanel {
+    width: 100%;
+    margin: 0;
+  }
+
+  .hero h4 {
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 534px) {
+  .hero h4 {
+    font-weight: 300;
+  }
+}

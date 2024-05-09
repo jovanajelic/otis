@@ -1,7 +1,7 @@
 export const nav = [
   {
     text: 'o nama',
-    path: '/aboutus',
+    path: '/',
   },
   {
     text: 'aktivnosti',

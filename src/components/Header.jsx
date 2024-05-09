@@ -30,7 +30,7 @@ const Header = () => {
             <button className="btn1">Želim da postanem volonter</button>
           </div>
           <div className="toggle">
-            <button onClick={() => setNavList(!navList)}>
+            <button onClick={() => setNavList(!navList)} className="hamburger">
               {navList ? <i className="fa fa-times"></i> : <i className="fa fa-bars"></i>}
             </button>
           </div>

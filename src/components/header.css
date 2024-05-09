@@ -13,6 +13,11 @@ header a {
   transition: 0.5s;
   font-weight: 500;
 }
+
+.btn1,
+.hamburger {
+  padding: 10px 20px;
+}
 header a:hover {
   color: #e20613;
 }
@@ -31,7 +36,7 @@ header h4 {
 header .toggle {
   display: none;
 }
-@media screen and (max-width: 1013px) {
+@media screen and (max-width: 1050px) {
   header {
     padding: 0;
   }
@@ -47,7 +52,7 @@ header .toggle {
   }
   header .small {
     position: absolute;
-    top: 19vh;
+    top: 80px;
     left: 0;
     width: 100%;
     background-color: #e20613;
